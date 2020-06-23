@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>default</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Command.Infrastructure</AssemblyName>
+    <RootNamespace>Command.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Command.Infrastructure.Api\Command.Infrastructure.Api.csproj" />
+    <ProjectReference Include="..\Command.Infrastructure.Core\Command.Infrastructure.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>default</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Command.Infrastructure.Api</AssemblyName>
+    <RootNamespace>Command.Infrastructure.Api</RootNamespace>
+  </PropertyGroup>
+
+</Project>
